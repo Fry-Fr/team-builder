@@ -28,6 +28,26 @@
   color: #61dafb;
 }
 
+#my_form {
+  display: flex;
+  flex-flow: column;
+  justify-content: baseline;
+  align-items: center;
+}
+
+#my_form label {
+  margin: .35rem 0;
+}
+
+#my_form label:first-child {
+  margin-top: 1rem;
+}
+
+#my_form button {
+  width: 20%;
+  margin: 1.25rem;  
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
